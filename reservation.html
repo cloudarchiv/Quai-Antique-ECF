@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/logo-removebg-2.png">
+    <link rel="stylesheet" href="reservation-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1><a href="/landing page/landingtest.html">Quai Antique</a></h1>
+      <h3>Reservation</h3>
+      <form action="submit_reservation.php" method="POST">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="phone">Numero de telephone:</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="hour">Heure:</label>
+        <input type="time" id="hour" name="hour" required />
+
+        <label for="guests">Nombre de personnes:</label>
+        <input
+          type="number"
+          id="guests"
+          name="guests"
+          min="1"
+          max="10"
+          required
+        />
+
+        <label for="allergies">Allergies:</label>
+        <textarea id="allergies" name="allergies"></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
