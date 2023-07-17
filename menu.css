@@ -1,0 +1,59 @@
+.container-fluid {
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #080808;
+    color: #fff;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+.col-sm-4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+
+h1 h4 p h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    padding-top: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
