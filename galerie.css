@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Caladea', serif;
+}
+
+
+.container {
+  padding: 14rem;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  padding-bottom: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+h1 a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  align-items: center;
+}
+
+.caption {
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.desc {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.price {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.thumbnail {
+  transform: translateY(-4px);
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.img-container:hover .thumbnail {
+  transform: translateY(-25px);
+}
